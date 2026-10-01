@@ -1,0 +1,23 @@
+{
+  "name": "aura-voice-agent-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Node.js API for the Aura Skincare AI voice support agent (Claude + tool calling)",
+  "type": "module",
+  "main": "server.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.129.0",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.4",
+    "express": "^5.2.1",
+    "zod": "^4.6.5"
+  }
+}
